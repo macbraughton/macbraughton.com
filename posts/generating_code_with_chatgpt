@@ -1,0 +1,25 @@
+---
+    title: 'Generating Code with ChatGPT'
+---
+
+Recently I noticed people discussing [ChatGPT](https://openai.com/blog/chatgpt/) on Mastodon and Twitter and found some interesting examples that involved using it to generate code. I thought I would try it myself to see how far it could take me in building an HTML file that included all the major bits. 
+
+* Demo - [Spinning Hexagon](https://macbraughton.github.io/hexagon/)
+* Code - [Spinning Hexagon](https://github.com/macbraughton/hexagon)
+
+Going forward I'm planning on learning how to use the ChatGPT API to better capture the data entered and generated from the prompts. For now, I'm just going to talk about my experience and you can use the links above to see the demo work and the also code of the generated page.
+
+I feel like after using this tool for the better part of a day I'm already starting to understand it better and getting better results. If you want to see me interact with the prompts more directly, I shared some screenshots of those interactions with Dr. Berry, you can check out the thread here: [infosec.exchange - Creating a calculate function using ChatGPT](https://infosec.exchange/@macbraughton/109496511540995380)
+
+So, for this example, in addition to content we have styling, and a script tag as well so we can use Javascript to calculate coordinates for more precision in the shape of our object. We'll use a `polygon` element inside of an SVG and use our Javascript code to enter the coordinates values into the `points` attribute.
+
+I began getting the first bits of code from ChatGPT by asking  for an html file of a white spinning hexagon SVG in a blue background.
+
+This gave me the skeleton of the code that went on to be refined into the the final product. And, indeed gave me a spinning hexagon. The shape was not a *regular* hexagon however. It looked very strange when it spun and it took some tweaks to get it to look better.
+
+I started by asking for it to be centered horizontally and vertically.
+
+It took a few tries but eventually I was getting code that had it in the center. I also asked for it to only take up 33% of the page and to be responsive, which also seemed to work.
+
+
+I continued to refine what should be included in the file. 
