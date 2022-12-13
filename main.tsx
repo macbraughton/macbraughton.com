@@ -7,7 +7,7 @@ blog({
   avatar: "rabbit_icon.svg",
   avatarClass: "rounded-full",
   author: "Donnie Hyxos",
-  description: <span>Cofounder of <a href="https://hyxos.io">hyxos.io</a></span>,
+  description: <span>Founder of <a href="https://hyxos.io">hyxos.io</a></span>,
   links: [
     {title: "Mastodon", url: "https://infosec.exchange/@macbraughton"},
     { title: "Twitter", url: "https://twitter.com/macbraughton" },
