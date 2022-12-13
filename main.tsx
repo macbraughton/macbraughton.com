@@ -9,6 +9,7 @@ blog({
   author: "Donnie Hyxos",
   description: <span>Cofounder of <a href="https://hyxos.io">hyxos.io</a></span>,
   links: [
+    {title: "Mastodon", url: "https://infosec.exchange/@macbraughton"},
     { title: "Twitter", url: "https://twitter.com/macbraughton" },
     { title: "GitHub", url: "https://github.com/macbraughton" },
   ],
