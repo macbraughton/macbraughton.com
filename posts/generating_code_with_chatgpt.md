@@ -1,6 +1,6 @@
 ---
-    title: 'Generating Code with ChatGPT'
-    publish_date: 2022-12-11
+title: Generating Code with ChatGPT
+publish_date: 2022-12-11
 ---
 
 Recently I noticed people discussing [ChatGPT](https://openai.com/blog/chatgpt/) on Mastodon and Twitter and found some interesting examples that involved using it to generate code. I thought I would try it myself to see how far it could take me in building an HTML file that included all the major bits. 
