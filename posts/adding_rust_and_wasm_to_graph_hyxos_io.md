@@ -140,7 +140,7 @@ After trying to deploy with netlify we got a new error this time.
 
 This was new one, the system complaining about a `pnpm-lock.yaml` file. We don't use pnpm, but netlify does. So we tried clearing the cache in the netlify panel and redeploying a few times but that didn't fix it.
 
-After looking at this post on stack overflow about a similar [issue](https://stackoverflow.com/questions/73968943/how-to-have-pnpm-install-install-everything-exactly-to-the-specs-of-the-pnpm-l), we decided to try removing the `node_modules` and running pnpm in our project to generate our own lockfile to see if it would overright theirs:
+After looking at this post on stack overflow about a similar [issue](https://stackoverflow.com/questions/73968943/how-to-have-pnpm-install-install-everything-exactly-to-the-specs-of-the-pnpm-l), we decided to try removing the `node_modules` and running pnpm in our project to generate our own lockfile to see if it would overwrite the one of the deploy server:
 
 `rm -rf node_modules`
 `pnpm install --no-frozen-lockfile`
