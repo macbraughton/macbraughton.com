@@ -9,7 +9,7 @@ Right now it's mostly javascript and typescript (don't forget JSX and TSX) and b
 
 There is no documentation other than the code itself. We are currently the primary user, and so the interface is in a quick and dirty "get the job done" state. It works just well enough to do a few things that we need it to do. As time goes on we plan to add more polish. In the interests of "learning in public", we've made it an open repo on [github](https://github.com/hyxos/graph.hyxos.io) and considering what license to use.  
 
-As we started building, the need to do some extremely expensive computations that just aren't that fast in javascript surfaced quickly. (Unoptimized computations can generate 13k+ dom nodes). We started down the route of doing some algorithmic optimizations in javascript, which led to some noticable performance imporvements, and eventually realized that if we really wanted speed there are other options.
+As we started building, the need to do some extremely expensive computations that just aren't that fast in javascript surfaced quickly. (Unoptimized computations can generate 13k+ dom nodes). We started down the route of doing some algorithmic optimizations in javascript, which led to some noticable performance improvements, and eventually realized that if we really wanted speed there are other options.
 
 After listening to a podcast with Tim McNamara on [syntax.fm](https://syntax.fm/show/571/supper-club-rust-in-action-with-tim-mcnamara) the other day, we decided to look into what it would be like add rust to the project. The thing is that it can't be done directly. It has to be compiled to wasm in order to use it within our javascript code (there are a few ways to do this we will explore in this post).
 
